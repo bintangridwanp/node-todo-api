@@ -3,7 +3,7 @@ const mysql = require('mysql2');
 const pool = mysql.createPool({
     host: 'localhost',       // Sesuaikan dengan host MySQL kamu
     user: 'root',            // Nama pengguna MySQL
-    password: '',            // Kata sandi MySQL (jika ada)
+    password: 'Bintangridwan8',            // Kata sandi MySQL (jika ada)
     database: 'todoapp',     // Nama database
 });
 
